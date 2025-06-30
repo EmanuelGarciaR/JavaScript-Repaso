@@ -1,0 +1,7 @@
+ASISTENCIAS
+
+Crear mini sistema para registrar
+- Presentes ( P ) y Ausentes ( A )
+- Pasados 30 días, mostrar la situación final del alumno
+- Máximo de 10% de ausencias  
+
