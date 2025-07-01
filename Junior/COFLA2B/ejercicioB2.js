@@ -28,10 +28,10 @@ const inasistenciasAlumnos = (diccionarioAlumnos, cantidadDias) =>{
 const perdieronMateria = (diccionarioAlumnos, cantidadDias) =>{
     for (alumno in diccionarioAlumnos){
         if (alumno && diccionarioAlumnos[alumno] > cantidadDias*0.1){
-            document.write(`${alumno} Pasó la materia con ${diccionarioAlumnos[alumno]} faltas`)
+            document.write(`<b>${alumno} pasó la materia con ${diccionarioAlumnos[alumno]} AUSENCIAS y ${cantidadDias-diccionarioAlumnos[alumno]} PRESENTES</b> </br>`)
         }
         else{
-            document.write(`${alumno} Perdió la materia con ${diccionarioAlumnos[alumno]} faltas`)
+            document.write(`<b style = 'color:red'>${alumno} Perdió la materia con ${diccionarioAlumnos[alumno]} FALTAS y ${cantidadDias-diccionarioAlumnos[alumno]} PRESENTES </b>`)
         }
     }
 }
