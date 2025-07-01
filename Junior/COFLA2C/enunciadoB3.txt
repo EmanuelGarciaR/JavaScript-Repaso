@@ -1,0 +1,6 @@
+COFLA feliz por empezar las clases, volvió a casa y tiene la tarea báscia de cálculo;
+tiene que hacer un par de ejercicios de matemátcias que incluyen suma, resta, división  y multiplicación.
+
+Realizar esto con una calculadora puede ser mucho más efectivo.
+
+- Crear una calculadora que simplifique el trabajo
